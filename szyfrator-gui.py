@@ -44,6 +44,7 @@ def szyfrowanie():
             plik.close()
 
         zapisywanieDoPliku(filename, napis)
+        szyfr_gui.destroy()
 
 
     szyfr_gui = tkinter.Tk()
@@ -100,6 +101,7 @@ def deszyfrowanie():
             plik.close()
 
         zapisywanieDoPliku(filename, napis)
+        deszyfr_gui.destroy()
 
 
 
@@ -117,6 +119,8 @@ def deszyfrowanie():
     kluczPole.pack()
 
     btn = tkinter.Button(deszyfr_gui, text="zatwierdź", command=deszyfru).pack()
+
+    deszyfr_gui.mainloop()
 
 
 
