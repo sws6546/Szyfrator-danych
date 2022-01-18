@@ -7,3 +7,5 @@ Narzędzie do szyfrowania danych, podmieniające ascii danego znaku o konkretną
 * aby otworzyć narzędzie trzeba posiadać interpreter języka python, który można pobrać z oficjalnego linka `https://www.python.org/downloads/`
 
 * Twórca nie bierze odpowiedzialności za zniszczenia pliku, spowodowane zapomnieniem klucza, lub błędem programu. Używać ostrożnie!!!
+
+* wersja python 3.8.10, powinno działać na nowszych
